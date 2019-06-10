@@ -17,11 +17,27 @@ body{
     font-family: 'Montserrat';
 }
 
-nav{
-    margin: 0;
-    padding: 0;
+*{
+    scroll-behavior: smooth;
 }
 
 .btn-flat:hover{
-    background-color: #d1d1d1;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+#menu{
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+}
+
+.fab:hover{
+    border-radius: 50%;
+    color: aliceblue !important;
+    background-color: rgba(0, 0, 0, .1);
+}
+.far:hover{
+    border-radius: 50%;
+    color: aliceblue !important;
+    background-color: rgba(0, 0, 0, .1);
 }
