@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'parisianregular';
+    src: url('./font/parisnn-webfont.eot');
+    src: url('./font/parisnn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font/parisnn-webfont.woff2') format('woff2'),
+         url('./font/parisnn-webfont.woff') format('woff'),
+         url('./font/parisnn-webfont.ttf') format('truetype'),
+         url('./font/parisnn-webfont.svg#parisianregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800&display=swap');
+
+body{
+    font-family: 'Montserrat';
+    
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-flat:hover{
+    background-color: #d1d1d1;
+}
